@@ -27,18 +27,7 @@ public static void main(String args[])
 	int i;
 	Scanner c=new Scanner(System.in);
 	
-	/*for(i=0;i<5;i++)
-	{
-		//studentDemo[] mystudent=new studentDemo[5];
-		System.out.println("Enter the name: ");
-		mystudent[i].name=c.next();
-		System.out.println("Enter the rollno:");
-		mystudent[i].rollno=c.nextInt();
-		System.out.println("Enter the mark for Subject 1:");
-		mystudent[i].mark1=c.nextInt();
-		System.out.println("Enter the mark for Subject 2:");
-		mystudent[i].mark2=c.nextInt();
-	}*/
+	
 	for(i=0;i<3;i++)
 	{
 	    mystudent[i]=new studentDemo();
